@@ -1,0 +1,124 @@
+/* CSS rule */
+/* Selectors: h1 */
+/* Declaration block {} */
+/* Declaration {...} */
+
+
+/* Element Selector */
+h1{
+    color: crimson;
+    font-size: 2rem;
+}
+
+h2{
+    color: yellowgreen;
+}
+
+/* Group Selector using id */
+#heading, #subheading{
+    color:orange
+}
+
+/* Class Selector */
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}
+
+.paragraph{
+    color:gold;
+}
+
+/* DIV SPAN */
+div{
+    font-style: oblique;
+}
+span{
+    text-transform: uppercase;
+}
+
+/* INHERITANCE */
+body{
+    font-family:'Courier New', Courier, monospace;
+}
+
+/* Univeral Selector # least specificity*/
+*{
+    margin:0;
+}
+
+/* COLOR PROPERTIES */
+#first{
+    background-color: aqua;
+}
+/* RGB and RGBA */
+#second{
+    color: rgb(100, 200, 200);
+    background-color: rgb(10, 10, 10);
+}
+#third{
+    /* In RGBA, A is opacity/transparency. The lower the value, the more transparent color is*/
+    color: rgba(40, 40, 40, 0.7);
+}
+/* HEX is a six unit alphanumerical combination. Each two unit match one component of RGB*/
+#fourth{
+    color: #a5a5a5;
+}
+
+/*  */
+#a{
+    font-size: 20px;
+    width: 60px;
+    height: 50px;
+    background-color: blue;
+}
+.outter{
+    width: 100vw;
+    height: 200px;
+    background: green;
+}
+.inner{
+    width: 30%;
+    height: 30%;
+    background-color: orange;
+}
+
+/* 
+FONT SIZE
+em - depends on parent
+rem - relative depend on root html{}
+*/
+.relative{
+    font-size: 2em;
+}
+.absolute{
+    font-size: 20px;
+}
+
+/* VW and VH */
+.banner{
+    width: 100vw;
+    height: 50vh;
+    background-color: red;
+}
+.header{
+    width: 50vw;
+    height: 50vh;
+    background-color: beige;
+}
+
+/* calc() */
+.navbar{
+    background-color: blue;
+    height: 50px;
+    color: white;
+    font-size: 2em;
+    text-decoration:line-through;
+}
+.area{
+    background-color: orange;
+    height: calc(100vh - 50px);
+}
